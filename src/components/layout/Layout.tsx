@@ -1,7 +1,7 @@
 import { FC, ReactNode } from 'react';
 import { Helmet } from 'react-helmet';
 import { VStack } from '@chakra-ui/react';
-import useFormatMessage from '../../hooks/useFormatMessage';
+import useFormatMessage from '@/hooks/useFormatMessage';
 
 type LayoutProps = {
   children: ReactNode;
